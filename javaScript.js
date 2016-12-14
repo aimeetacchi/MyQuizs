@@ -14,7 +14,7 @@ function myQuiz() {
 		correct += 1;
 	}
 	
-	var answer3 = prompt("Who is Rose Tyle played by?");
+	var answer3 = prompt("Who is Rose Tyler played by?");
 	if (answer3.toUpperCase() === 'BILLIE PIPER') {
 		correct += 1;
 	}
