@@ -1,0 +1,75 @@
+	/**
+	 * index.scss
+	 * - Add any styles you want here!
+	 */
+
+	html,
+	body {
+	  padding: 0;
+	  margin: 0;
+	  font-family: 'Oswald', sans-serif;
+	  font-size: 24px;
+	  display: flex;
+	  flex-direction: column;
+	  min-height: 100vh;
+	}
+
+	header {
+	  background: #fff url(http://img06.deviantart.net/87ab/i/2015/288/7/1/doctor_who___tardis_wallpaper_by_supergecko99-d9d6mup.jpg) no-repeat center center;
+	  height: 250px;
+	  background-size: cover;
+	}
+
+	nav {
+	  color: #fff;
+	  padding: 20px 20px 0;
+	}
+
+	h1 {
+	  font-family: 'Bungee', cursive;
+	  padding: 10px;
+	  margin: 0;
+	}
+
+	.content {
+	  margin: 0 auto;
+	  width: 80%;
+	  text-align: center;
+	  padding: 0 0 20px;
+	  flex: 1;
+	}
+
+	#score {
+	  background-color: red;
+	  margin: 0 auto;
+	  text-align: center;
+	  font-size: 26px;
+	  width: 80%;
+	}
+
+	#score p {
+	  padding: 2% 0;
+	}
+
+	.playQuizButton {
+	  background: lightblue;
+	  font-family: 'Oswald', sans-serif;
+	  font-size: 24px;
+	  border: none;
+	  padding: 20px 0;
+	  width: 30%;
+	  transition: all ease 0.2s;
+	}
+
+	.playQuizButton:hover {
+	  background: royalblue;
+	}
+
+	footer {
+	  box-sizing: border-box;
+	  background: #efefef;
+	  padding: 20px 0;
+	  font-size: 0.6em;
+	  text-align: center;
+	  color: #000;
+	}
